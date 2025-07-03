@@ -5,3 +5,6 @@ __pycache__/
 cert_env/
 __pycache__/
 *.pyc
+cert_env/
+__pycache__/
+*.pyc

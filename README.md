@@ -390,9 +390,13 @@ tail -f cert_server.log
 - **`tests/`**: Comprehensive test suite
 
 ### Mathematical Framework
-- **Behavioral Consistency**: `C(A_i, p) = 1 - σ({d(r_j, r_k)}) / μ({d(r_j, r_k)})`
-- **Coordination Effect**: `γ = Observed_Performance / Expected_Performance`
+- **Behavioral Consistency**:
+- 
+  $C(A_i, p) = \frac{1 - \sigma({d(r_j, r_k)})}{\mu({d(r_j, r_k)})}$
+- **Coordination Effect**:
 
+  $\gamma = \frac{\textrm{Coordinated Performance}}{\textrm{Individual Performance}}$
+  
 ## 🤝 Contributing
 
 ### Development Setup
@@ -423,7 +427,7 @@ Built for AI researchers studying coordination effects in multi-agent systems. S
 
 ## 📞 Support
 
-For issues and questions:
+For issues and questions contact javier@jmarin.info, or 
 - Check the troubleshooting section above
 - Run the test suite: `python3 tests/test_deployment.py`
 - Review server logs: `tail -f cert_server.log`

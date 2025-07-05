@@ -342,3 +342,4 @@ def get_popular_models() -> Dict[str, List[str]]:
             "google/flan-t5-large",
             "google/gemma-7b-it"
         ]
+    }
